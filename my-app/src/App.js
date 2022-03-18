@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-
+const giphy_secret_key = process.env.React_APP_Giphy_KEY
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
+
          U CAN CALL ME DIMAS!!.
+
         </p> 
         <p>
           Edit <code>src/App.js</code> and save to reload.
